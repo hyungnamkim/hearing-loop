@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/hearing-loop/static/css/main.c96e7ed8.css",
+    "main.js": "/hearing-loop/static/js/main.73425c81.js",
+    "static/js/787.c51dcfb2.chunk.js": "/hearing-loop/static/js/787.c51dcfb2.chunk.js",
+    "static/media/logo.png": "/hearing-loop/static/media/logo.0fb994804eb37564c775.png",
+    "index.html": "/hearing-loop/index.html",
+    "main.c96e7ed8.css.map": "/hearing-loop/static/css/main.c96e7ed8.css.map",
+    "main.73425c81.js.map": "/hearing-loop/static/js/main.73425c81.js.map",
+    "787.c51dcfb2.chunk.js.map": "/hearing-loop/static/js/787.c51dcfb2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c96e7ed8.css",
+    "static/js/main.73425c81.js"
+  ]
+}
