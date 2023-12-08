@@ -1,0 +1,129 @@
+/* LoginPage.css */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* 전체 뷰포트 높이를 사용 */
+    
+  }
+  .login-title{
+    display: flex;
+    align-items: center; /* 이미지와 텍스트를 수직 방향으로 중앙에 정렬 */
+  }
+  
+  .login-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    width: 100px; /* 로고 크기 조정 */
+    margin-bottom: 10px;
+  }
+  
+  /* .login-form {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  } */
+  .login-form {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 35%; /* 넓이를 50%로 설정 */
+    max-width: 500px; /* 최대 넓이를 500px로 설정 */
+    /* 기타 스타일 */
+  }
+  
+  
+  .login-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form label {
+    margin: 10px 0 5px;
+  }
+  
+  .login-form input[type="text"],
+  .login-form input[type="password"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+  }
+  .form-row {
+    display: flex; /* Flexbox를 사용 */
+    align-items: center; /* 중앙 정렬 */
+    margin-bottom: 15px; /* 여백 추가 */
+  }
+  
+  .form-label {
+    margin-right: 30px; /* 라벨과 인풋 사이의 여백 */
+    white-space: nowrap; /* 라벨이 줄바꿈 되지 않도록 설정 */
+  }
+  
+  
+  .form-input {
+    flex-grow: 1; /* 남은 공간을 모두 채우도록 설정 */
+  }
+  
+  /* LoginPage.css */
+
+    .login-button {
+    background-color: #007A9F;
+    font-size : 18px;
+    color: #ffffff; /* 흰색 글씨 */
+    text-align: center; /* 글씨 왼쪽 정렬 */
+    border: none; /* 테두리 제거 */
+    outline: none; /* 클릭 시 나타나는 윤곽선 제거 */
+    cursor: pointer; /* 마우스 오버 시 커서 변경 */
+    padding: 10px;
+    border-radius: 5px;
+    /* 필요에 따라 더 많은 스타일 속성 추가 */
+  }
+  .login-button.disabled {
+    background-color: #add8e6; /* 하늘색 (옅은 파란색) 배경색 */
+    color: white;
+    cursor: not-allowed; /* 커서 스타일 변경 */
+    /* 필요한 경우 다른 스타일 속성 추가 */
+  }
+  /* 추가적인 반응형 디자인이나 세부적인 스타일 조정이 필요할 수 있습니다. */
+  .title-text{
+    font-size: 20px;
+    margin-left: 10px; /* 이미지와 텍스트 사이 간격 */
+    flex-direction: column; /* 텍스트를 세로로 정렬 */
+    color :#383737;
+  }
+  .title-text span {
+    display: block; /* 블록 레벨 요소로 만들어 줄 간격을 조절할 수 있게 함 */
+    margin-bottom: -25px; /* 두 텍스트 사이의 간격 조정 */
+  }
+  
+  .title-text span:last-child {
+    margin-bottom: 0; /* 마지막 텍스트 요소의 아래쪽 마진 제거 */
+  }
+  
+  input::placeholder {
+    color:#AEACAC; /* 원하는 색상으로 변경 */
+  }
+
+  .contact-info {
+    margin-top: 30px; /* 위쪽으로 20px의 마진을 추가 */
+    font-size: 12px;
+    text-align: center; /* 글씨 왼쪽 정렬 */
+    
+    /* 또는 padding-top: 20px;를 사용하여 내부에 간격을 추가할 수 있습니다 */
+  }
+  .login-error {
+    color: red; /* 빨간색 글씨 */
+    margin-top: 10px; /* 로그인 버튼과의 간격 */
+    text-align: left; /* 중앙 정렬 */
+    font-size: 12px;
+  }

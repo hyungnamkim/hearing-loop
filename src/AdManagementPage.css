@@ -1,0 +1,33 @@
+/* 테이블 스타일 */
+table {
+    width: 100%; /* 테이블 너비를 부모 요소의 100%로 설정 */
+    border-collapse: collapse; /* 셀 사이의 테두리 겹침 방지 */
+    margin-top: 20px; /* 테이블과 상단 요소 사이의 여백 */
+  }
+  
+  th, td {
+    border: 1px solid #ddd; /* 테두리 스타일 */
+    text-align: left; /* 텍스트 왼쪽 정렬 */
+    padding: 8px; /* 패딩 */
+  }
+  
+  th {
+    background-color: #f2f2f2; /* 헤더 배경 색 */
+  }
+  
+  /* 행 호버 스타일 */
+  tr:hover {
+    background-color: #eaeaea;
+  }
+  
+  /* 상태 박스 스타일 */
+  .status-box {
+    /* 원하는 스타일을 여기에 추가 */
+    margin-bottom: 20px; /* 상태 박스와 테이블 사이의 여백 */
+  }
+  
+  /* ... 기타 스타일 ... */
+  .sheet-box{
+    margin-top: 70px; /* 테이블과 상단 요소 사이의 여백 */
+
+  }

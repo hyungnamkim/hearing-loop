@@ -1,0 +1,33 @@
+.circle {
+    background-color: red; /* 동그라미의 배경색 */
+    color: white; /* 텍스트 색상 */
+    border-radius: 40px; /* 모서리를 둥글게 */
+    width: 50px; /* 동그라미의 가로 길이 */
+    height: 40px; /* 동그라미의 세로 길이 */
+    text-align: center; /* 텍스트 가운데 정렬 */
+    line-height: 40px; /*세로 중앙 정렬을 위한 라인 높이
+    font-size: 20px; /* 텍스트 크기 */
+    display: inline-block; /* 인라인 블록 요소로 설정*/
+    margin-left: 10px; /* 텍스트와의 간격을 위한 마진 */
+  }
+  .main-header-btn{
+    background-color: gray; /* 동그라미의 배경색 */
+    color: white; /* 텍스트 색상 */
+    border: transparent;
+    width: auto;
+    height: 40px;
+    margin-left: 20px; /* 텍스트와의 간격을 위한 마진 */
+    font-size: 20px;
+    border-radius: 15px; /* 모서리를 둥글게 */
+
+  }
+
+  .main-header-span
+  {
+    margin-right: 40px; /* 텍스트와의 간격을 위한 마진 */
+
+  }
+  .main-header-span-number
+  {
+    color: red;
+  }
