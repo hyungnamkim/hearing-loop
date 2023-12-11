@@ -22,6 +22,7 @@
 
   }
 
+
   .main-header-span
   {
     margin-right: 40px; /* 텍스트와의 간격을 위한 마진 */
@@ -31,3 +32,13 @@
   {
     color: red;
   }
+
+  .sheet-box table {
+    border-collapse: collapse;
+}
+
+.sheet-box table td, .sheet-box table th {
+    border: none;
+    text-align: center;
+}
+
