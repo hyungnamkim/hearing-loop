@@ -43,7 +43,6 @@ function AdList({ title, data }) {
 function MainPage() {
     const { tableData } = useContext(AdDataContext);
     const publishedData = tableData.filter(row => row.송출중 === true);
-    const unpublishedData = tableData.filter(row => row.송출중 === false);
     
     
     return (
